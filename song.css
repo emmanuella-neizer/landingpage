@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(218, 216, 216);
+    
+}
+.navigation{
+    background-color:white ;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+.tool{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.tool h4{
+    margin-left: 10%;
+}
+.tool p{
+    margin-right: 5%;
+}
+.headline{
+    background-color:#ccc;
+    display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   align-items:center;
+   width: 90%;
+   height: 330px;
+   margin: 0 auto 50px auto;
+   border: 5px solid #fff;
+   
+}
+.headline h1:first-child ~ h1,
+.sub h3:first-child ~ h3,
+.subtitle h3, .action h3
+ {
+    margin-bottom: 16px;
+}
+.headline p, .sub p, .subtitle p, .action p {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 16px;
+}
+.line {
+    width: 96px;
+    height: 96px;
+
+}
+
+.headline.videop{
+    width: 60%;
+    margin: 32px auto;
+}
+.headline.videop img{
+    height:32px;
+    width: 32px;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+.active{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+.reviews{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+   margin-bottom: 50px;
+   gap: 48px;
+   /* padding: 10px; */
+}
+
+.box{
+    background-color:#ccc;
+    border: 5px solid #fff;
+    height: 100%;
+    width: calc( 100% / 3);
+}
+    
+.user{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.user img{
+    width: 145px;
+    height: 145px;
+}
+
+.number{
+    /* background-color: blue; */
+    padding-left:  24px;
+}
+
+.number img{
+     width: 60px;
+     height: 60px;
+     /* margin-left: 50px; */
+     /* margin-top:20px; */
+     
+ }
+ 
+ .reviews .box p{
+     padding-left: 24px;
+ }
+
+ .action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 32px
+ }
+
+.hot{
+    background-color: rgb(21, 21, 22);
+    color: white;
+    width: 120px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+    padding: 5px;
+}
+
+.rule{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 64px; 
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product h3{
+    margin-bottom: 32px;
+}
+
+.product > .accessories{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+
+.accessories span{
+    display: flex;
+    width: calc((100% / 4) - 22px);
+    border: 5px solid #fff;
+   height: 48px;
+   align-items: center;
+   justify-content: center;
+}
+
+.navigation > div{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.navigation > div span:last-child{
+ display: flex;   
+}
+
+.navigation span img{
+    width: 24px;
+    height: 24px;
+}
